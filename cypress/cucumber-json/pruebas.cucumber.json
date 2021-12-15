@@ -1,0 +1,52 @@
+[
+  {
+    "description": "    Feature Esta es la primer prueba",
+    "keyword": "Feature",
+    "name": "Test one",
+    "line": 1,
+    "id": "test-one",
+    "tags": [],
+    "uri": "pruebas.feature",
+    "elements": [
+      {
+        "id": "test-one;scenario-abrir-el-navegador",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Scenario Abrir el navegador",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Abrir Chrome",
+            "result": {
+              "status": "passed",
+              "duration": 5892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Ingreso datos de acceso",
+            "result": {
+              "status": "undefined",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Ingreso exitosamente",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
